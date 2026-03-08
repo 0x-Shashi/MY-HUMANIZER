@@ -3,7 +3,7 @@ Main pipeline orchestrator — the 6-pass humanization engine.
 
 DETECT → RETRIEVE → REWRITE → INJECT → VERIFY → ITERATE
 
-This is the brain of Shiro Humanizer. It chains all modules together
+This is the brain of My Humanizer. It chains all modules together
 and implements the adversarial iteration loop that makes the system
 fundamentally different from every existing humanizer.
 

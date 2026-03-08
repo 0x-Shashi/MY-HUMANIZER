@@ -1,5 +1,5 @@
 """
-Shiro Humanizer — CLI entry point.
+My Humanizer — CLI entry point.
 
 Usage:
     python main.py                          # Interactive mode
@@ -53,8 +53,8 @@ def _colored(text: str, color: str) -> str:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="shiro-humanizer",
-        description="Shiro Humanizer — 6-pass AI text humanization engine",
+        prog="my-humanizer",
+        description="My Humanizer — 6-pass AI text humanization engine",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=textwrap.dedent("""
             Examples:
@@ -126,7 +126,7 @@ def build_parser() -> argparse.ArgumentParser:
 def print_banner():
     banner = f"""
 {_colored('╔══════════════════════════════════════════════╗', C.CYAN)}
-{_colored('║', C.CYAN)}  {_colored('SHIRO HUMANIZER', C.BOLD + C.WHITE)}  {_colored('v0.1.0', C.DIM)}                 {_colored('║', C.CYAN)}
+{_colored('║', C.CYAN)}  {_colored('MY HUMANIZER', C.BOLD + C.WHITE)}  {_colored('v1.0', C.DIM)}                 {_colored('║', C.CYAN)}
 {_colored('║', C.CYAN)}  {_colored('6-Pass AI Text Humanization Engine', C.DIM)}        {_colored('║', C.CYAN)}
 {_colored('╚══════════════════════════════════════════════╝', C.CYAN)}
 """
@@ -259,7 +259,7 @@ def interactive_mode():
     )
 
     while True:
-        print(f"\n{_colored('shiro', C.CYAN)}> ", end="")
+        print(f"\n{_colored('myhumanizer', C.CYAN)}> ", end="")
         lines = []
         try:
             while True:

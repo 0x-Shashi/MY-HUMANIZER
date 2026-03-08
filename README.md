@@ -1,4 +1,4 @@
-# Shiro Humanizer
+# My Humanizer
 
 **6-pass AI text humanization engine** that rewrites AI-generated text to bypass detection tools like GPTZero, ZeroGPT, Turnitin, etc.
 
@@ -48,15 +48,15 @@ That's it. You're in interactive mode.
 python main.py
 ```
 
-1. You'll see a `shiro>` prompt
+1. You'll see a `myhumanizer>` prompt
 2. Paste your AI-generated text
 3. Press **Enter twice** (empty line) to submit
 4. Wait a few seconds — the transformed text is printed
 
 ```
-shiro> Artificial intelligence has fundamentally transformed the landscape of
-shiro> modern technology. Moreover, it is crucial to understand...
-shiro>
+myhumanizer> Artificial intelligence has fundamentally transformed the landscape of
+myhumanizer> modern technology. Moreover, it is crucial to understand...
+myhumanizer>
 
 === TRANSFORMATION RESULTS ===
 AI Score: 73% → 18%
@@ -182,9 +182,9 @@ python main.py -f essay.txt -d casual
 
 ---
 
-## What Detectors Actually Measure (and how Shiro beats them)
+## What Detectors Actually Measure (and how My Humanizer beats them)
 
-| Metric | AI Text | Human Text | What Shiro Does |
+| Metric | AI Text | Human Text | What My Humanizer Does |
 |--------|---------|------------|-----------------|
 | Burstiness (sentence length variation) | σ = 2–4 (uniform) | σ = 6–10 (varied) | Inserts fragments, varies length |
 | Vocabulary richness (TTR) | 0.50–0.65 | 0.65–0.80 | Diverse word replacements |

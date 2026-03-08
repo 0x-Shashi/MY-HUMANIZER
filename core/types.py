@@ -1,5 +1,5 @@
 """
-Core domain types for the Shiro Humanizer engine.
+Core domain types for the My Humanizer engine.
 """
 
 from __future__ import annotations

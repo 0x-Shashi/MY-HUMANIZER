@@ -1,4 +1,4 @@
-# Shiro Humanizer - Dependencies
+# My Humanizer - Dependencies
 # Core (required)
 # No external dependencies needed for basic mode!
 # All core transformations work with Python stdlib only.

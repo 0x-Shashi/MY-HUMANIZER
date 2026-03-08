@@ -1,5 +1,5 @@
 """
-Verification engine — the adversarial loop that makes Shiro Humanizer work.
+Verification engine — the adversarial loop that makes My Humanizer work.
 
 This is Pass 5 of the pipeline: VERIFY.
 
