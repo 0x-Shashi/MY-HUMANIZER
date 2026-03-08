@@ -1,0 +1,13 @@
+# Shiro Humanizer - Dependencies
+# Core (required)
+# No external dependencies needed for basic mode!
+# All core transformations work with Python stdlib only.
+
+# Optional: Enhanced mode
+sentence-transformers>=2.2.0    # Dense embeddings for RAG + semantic similarity
+faiss-cpu>=1.7.0                # Fast vector similarity search
+numpy>=1.24.0                   # Numerical operations
+
+# Optional: Advanced NLP (for future expansion)
+# spacy>=3.6.0                  # Advanced NLP pipeline
+# nltk>=3.8.0                   # NLP toolkit
